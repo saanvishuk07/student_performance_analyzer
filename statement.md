@@ -16,8 +16,11 @@ It can be extended in the future to include advanced analytics, predictive model
 ### TARGET USERS ###
 
 Teachers and Professors – To evaluate student performance quickly
+
 School/College Administrators – For overall academic analysis
+
 Data Analysts (Beginners) – To understand basic data analysis concepts
+
 Students – For self-performance tracking and learning purposes
 
 
