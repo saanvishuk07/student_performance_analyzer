@@ -10,9 +10,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# ─────────────────────────────────────────────
 # 1. LOAD DATA
-# ─────────────────────────────────────────────
+
 
 marks_df      = pd.read_csv("student_marks.csv")
 attendance_df = pd.read_csv("student_attendance.csv")
@@ -23,9 +22,9 @@ scores = marks_df["Marks_AIML"]
 att_names = attendance_df["StudentName"].str.split().str[0]
 att_pct   = attendance_df["AttendancePercent"]
 
-# ─────────────────────────────────────────────
+
 # 2. STATISTICS — PRINTED TO CONSOLE ONLY
-# ─────────────────────────────────────────────
+
 
 print("=" * 50)
 print("  MARKS STATISTICS — Fundamentals of AI-ML")
@@ -54,9 +53,8 @@ print(f"  Regular (>= 75%)  : {(att_pct >= 75).sum()}")
 print(f"  Shortage (< 75%)  : {(att_pct < 75).sum()}")
 print("=" * 50)
 
-# ─────────────────────────────────────────────
 # 3. BAR GRAPH — MARKS (clean, no stats on plot)
-# ─────────────────────────────────────────────
+
 
 fig1, ax1 = plt.subplots(figsize=(12, 5))
 
@@ -71,9 +69,8 @@ plt.tight_layout()
 plt.savefig("marks_bar_graph.png", dpi=150, bbox_inches="tight")
 plt.show()
 
-# ─────────────────────────────────────────────
-# 4. SCATTER GRAPH — ATTENDANCE (clean, no stats on plot)
-# ─────────────────────────────────────────────
+
+# 4. SCATTER GRAPH — ATTENDANCE 
 
 x_pos = np.arange(len(att_names))
 
