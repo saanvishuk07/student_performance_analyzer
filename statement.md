@@ -24,8 +24,13 @@ Students – For self-performance tracking and learning purposes
 ### ADVANCE FEATURES (FUTURE ENHANCEMENTS) ###
 
  Predictive analysis (e.g., predicting student performance using Machine Learning)
- Graphical User Interface (GUI) for ease of use
+
+ Graphical User Interface (GUI) for ease of use 
+ 
  Cloud integration for storing and accessing large datasets
+ 
  Export reports in PDF or Excel format
+ 
  User authentication system for secure access
+ 
  Real-time data analysis and updates
