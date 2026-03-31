@@ -1,0 +1,16 @@
+StudentID,StudentName,Day1,Day2,Day3,Day4,Day5,Day6,Day7,Day8,Day9,Day10,TotalPresent,AttendancePercent
+S001,Aarav Sharma,1,1,1,1,0,1,1,1,1,1,9,90
+S002,Priya Mehta,1,1,0,1,1,1,1,0,1,1,8,80
+S003,Rohan Verma,1,1,1,1,1,1,1,1,1,1,10,100
+S004,Sneha Iyer,1,0,1,1,0,1,0,1,1,0,6,60
+S005,Karan Patel,1,1,1,0,1,1,1,1,0,1,8,80
+S006,Divya Nair,0,1,0,1,0,0,1,1,0,1,5,50
+S007,Arjun Singh,1,1,1,1,1,1,1,1,1,0,9,90
+S008,Meera Pillai,1,0,1,1,1,0,1,1,1,1,8,80
+S009,Vikram Rao,1,1,1,1,1,1,1,1,1,1,10,100
+S010,Ananya Gupta,0,0,1,1,0,1,0,1,0,1,5,50
+S011,Rahul Das,1,1,0,1,1,1,1,0,1,1,8,80
+S012,Pooja Joshi,1,1,1,1,1,0,1,1,1,1,9,90
+S013,Siddharth Kumar,1,0,1,0,1,1,0,1,1,0,6,60
+S014,Neha Saxena,1,1,1,1,0,1,1,1,0,1,8,80
+S015,Aditya Bose,0,1,0,1,1,0,1,0,1,1,6,60
